@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-from calculator_1 import add, sub, mul, div
-import sys
 if __name__ == "__main__":
+    from calculator_1 import add, sub, mul, div
+    import sys
     argv = sys.argv
     ac = len(sys.argv) - 1
     if ac != 3:
@@ -21,5 +21,5 @@ if __name__ == "__main__":
         if op == "/":
             print("{} {} {} = {}".format(a, op, b, div(a, b)))
     else:
-        print("Unknown operator. Available operators: +, -, * and / f")
+        print("Unknown operator. Available operators: +, -, * and /")
         exit(1) 
