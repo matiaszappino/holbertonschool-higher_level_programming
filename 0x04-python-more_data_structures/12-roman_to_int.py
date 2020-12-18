@@ -6,6 +6,8 @@ def roman_to_int(roman_string):
 
     if type(roman_string) is not str or roman_string is None:
         return 0
+    if len(roman_string) == 1:
+        return rom_dic.get(roman_string)
     while i < len(roman_string):
         if i + 1 < len(roman_string) and roman_string[i:i + 2] in rom_dic:
             num += rom_dic[roman_string[i:i + 2]]
