@@ -14,5 +14,5 @@ def roman_to_int(roman_string):
         elif rom_dic.get(roman_string[i]) >= rom_dic.get(roman_string[i + 1]):
             num += rom_dic.get(roman_string[i])
         else:
-            num -= rom_dic.get(roman_string[i])    
+            num -= rom_dic.get(roman_string[i])
     return num
