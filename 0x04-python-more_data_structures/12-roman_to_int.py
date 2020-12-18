@@ -8,11 +8,11 @@ def roman_to_int(roman_string):
         return 0
     if len(roman_string) == 1:
         return rom_dic.get(roman_string)
-    while i < len(roman_string):
-        if i + 1 < len(roman_string) and roman_string[i:i + 2] in rom_dic:
-            num += rom_dic[roman_string[i:i + 2]]
-            i += 2
+    for i in range(len(roman_string)):
+        if i + 1 == len(roman_string):
+            num += rom_dic.get(roman_string[i])
+        elif rom_dic.get(roman_string[i]) >= rom_dic.get(roman_string[i + 1]):
+            num += rom_dic.get(roman_string[i])
         else:
-            num += rom_dic[roman_string[i]]
-            i += 1
+            num -= rom_dic.get(roman_string[i])    
     return num
