@@ -4,7 +4,7 @@ def safe_function(fct, *args):
     try:
         a = args[0]
         b = args[1]
-        c = fct(a,b)
+        c = fct(a, b)
     except Exception as e:
         c = None
         string = "Exception: " + str(e) + '\n'
