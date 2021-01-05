@@ -1,8 +1,11 @@
 #!/usr/bin/python3
+"""Size Validation"""
 class Square:
+"""Square Size"""
     pass
 
     def __init__(self, size=0):
+    """Def Initi Size"""
         if type(size) != int:
             raise TypeError('size must be an integer')
         if size < 0:
