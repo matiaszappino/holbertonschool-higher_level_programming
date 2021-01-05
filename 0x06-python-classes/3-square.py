@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """Area of a Square"""
+
+
 class Square:
     """Square Class"""
     pass
