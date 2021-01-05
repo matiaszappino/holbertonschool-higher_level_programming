@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 """Acces and update private atribute"""
 class Square:
-"""Square Class"""
+    """Square Class"""
     pass
 
     def __init__(self, size=0):
-    """Def Init Size"""
+        """Def Init Size"""
         #if type(size) != int:
          #   raise TypeError('size must be an integer')
         #if size < 0:
@@ -13,18 +13,18 @@ class Square:
         self.__size = size
 
     def area(self):
-    """Def Area"""
+        """Def Area"""
         area = self.__size * self.__size
         return area
 
     @property
-    """Property"""
     def size(self):
+        """Return Size of the square"""
         return self.__size
 
     @size.setter
-    """Size of the square"""
     def size(self, value):
+        """Size of the Square"""
         if type(value) != int:
             raise TypeError('size must be an integer')
         if value < 0:
