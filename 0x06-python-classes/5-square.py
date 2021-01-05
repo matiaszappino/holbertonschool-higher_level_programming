@@ -14,6 +14,7 @@ class Square:
         """Def Area"""
         area = self.__size * self.__size
         return area
+
     def my_print(self):
         """My print"""
         if self.__size == 0:
