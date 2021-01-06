@@ -51,4 +51,3 @@ class SinglyLinkedList:
             current.next_node = newNode
         else:
             self.head = newNode
-
