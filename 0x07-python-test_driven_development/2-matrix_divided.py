@@ -1,6 +1,5 @@
-  
 #!/usr/bin/python3
-"""TDD module"""
+""" TDD module """
 
 
 if __name__ == "__main__":
