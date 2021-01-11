@@ -1,14 +1,18 @@
 #!/usr/bin/python3
-"""Test Module"""
+"""Print Square Module"""
 
 
-if __name__ == "__main__":
-    import doctest
-    doctest.testmod()
+def print_square(size):
+    """
+    Prints the Square of length size with the character #
+    """
 
-def text_indentation(text):
-    for i in text:
-        if i == '.' or i == '?' or i == ':':
-            print('\n')
-        else:
-            print(i, end="")
+    if type(size) != int:
+        raise TypeError("size must be an integer")
+    if size >= 0:
+        for i in range(size):
+            for j in range(size):
+                print("#", end="")
+            print()
+    else:
+        raise ValueError("size must be >= 0")
