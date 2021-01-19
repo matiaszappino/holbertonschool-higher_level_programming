@@ -79,3 +79,10 @@ Less than 0 Output:
 Traceback (most recent call last):
 ...
 TypeError: Hola must be greater than 0
+
+>>> bg = BaseGeometry()
+>>> bg.integer_validator("Hola", 10)
+>>> bg.area()
+Traceback (most recent call last):
+...
+Exception: area() is not implemented
