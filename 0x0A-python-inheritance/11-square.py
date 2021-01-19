@@ -1,52 +1,50 @@
 #!/usr/bin/python3
-"""Base Geometry"""
+''' BaseGeometry class module'''
 
 
 class BaseGeometry:
-    """Empty class BaseGeometry"""
-
+    '''BaseGeometry class'''
     def area(self):
-        """Raises an Exception"""
-        raise Exception('area() is not implemented')
+        '''return area of geometry'''
+        raise Exception("area() is not implemented")
 
     def integer_validator(self, name, value):
-        """Validates value"""
+        '''validates value'''
         if type(value) is not int:
-            raise TypeError('{} must be an integer'.format(name))
+            raise TypeError("{} must be an integer".format(name))
         if value <= 0:
-            raise TypeError('{} must be greater than 0'.format(name))
+            raise ValueError("{} must be greater than 0".format(name))
 
 
 class Rectangle(BaseGeometry):
-    """Rectangle Class"""
+    '''Rectangle class'''
     def __init__(self, width, height):
-        """Init"""
+        '''Constructor function'''
         super().integer_validator("width", width)
         super().integer_validator("height", height)
         self.__width = width
         self.__height = height
 
     def area(self):
-        """Area Method"""
-        return (self.__width * self.__height)
+        '''Returns area of rectangle'''
+        return self.__width * self.__height
 
     def __str__(self):
-        """Str method"""
-        return "[Rectangle] {}/{}>".format(self.__width, self.__height)
+        '''prints object description'''
+        return ("[Rectangle] {}/{}".format(self.__width, self.__height))
 
 
 class Square(Rectangle):
-    """Square Class"""
+    '''Square class'''
     def __init__(self, size):
-        """Init with size"""
         super().integer_validator("size", size)
         super().__init__(size, size)
         self.__size = size
 
     def area(self):
-        """Area Method"""
+        '''Returns area of rectangle'''
         return super().area()
 
     def __str__(self):
-        """Str method"""
-        return "[Square] {}/{}>".format(self.__size, self.__size)
+        '''prints object description'''
+        return ("[Square] {}/{}".format(self.__size, self.__size))
