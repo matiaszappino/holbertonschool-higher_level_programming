@@ -9,7 +9,6 @@ if __name__ == "__main__":
 
 class BaseGeometry:
     """Empty class BaseGeometry"""
-    pass
 
     def area(self):
         """Raises an Exception"""
