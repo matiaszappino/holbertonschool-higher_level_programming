@@ -70,7 +70,7 @@ TypeError: None must be an integer
 >>> bg.integer_validator("Hola", 0)
 Traceback (most recent call last):
 ...
-TypeError: Hola must be greater than 0
+ValueError: Hola must be greater than 0
 
 Less than 0 Output:
 
@@ -78,7 +78,7 @@ Less than 0 Output:
 >>> bg.integer_validator("Hola", -1)
 Traceback (most recent call last):
 ...
-TypeError: Hola must be greater than 0
+ValueError: Hola must be greater than 0
 
 >>> bg = BaseGeometry()
 >>> bg.integer_validator("Hola", 10)
