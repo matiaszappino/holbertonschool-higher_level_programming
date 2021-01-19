@@ -3,6 +3,7 @@
 
 
 if __name__ == "__main__":
+    """Test cases"""
     import doctest
     doctest.testfile("tests/7-base_geometry.txt")
 
