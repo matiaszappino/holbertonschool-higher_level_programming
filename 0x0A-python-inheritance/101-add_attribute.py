@@ -2,9 +2,9 @@
 """Adds a new attribute to an object if it’s possible"""
 
 
-def add_attribute(object, name, value):
+def add_attribute(obj, name, value):
     """Adds a new attribute"""
-    try:
-        object.name = value
-    except:
+    if hasattr(obj, '__dict__'):
         raise TypeError("can't add new attribute")
+    else:
+        setattr(obj, name, value)
