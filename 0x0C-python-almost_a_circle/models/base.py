@@ -52,11 +52,10 @@ class Base:
 
     @staticmethod
     def from_json_string(json_string):
-        '''json loads'''
-        if json_string is None or len(json_string) == 0:
+        """ A JSON str representation of a list of dicts """
+        if json_string is None or json_string == "[]":
             return []
-        else:
-            return json.loads(json_string)
+        return json.loads(json_string)
 
     '''@classmethod
     def create(cls, **dictionary):
