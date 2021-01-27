@@ -52,7 +52,7 @@ class Base:
 
     @staticmethod
     def from_json_string(json_string):
-        """ A JSON str representation of a list of dicts """
+        '''json loads'''
         if json_string is None or json_string == "[]":
             return []
         return json.loads(json_string)
