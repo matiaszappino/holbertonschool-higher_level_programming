@@ -1,6 +1,6 @@
 # 0x0C. Python - Almost a circle
 
-In this project, you will review everything about Python:
+### In this project, you will review everything about Python:
 
    - Import
    - Exceptions
@@ -13,7 +13,7 @@ In this project, you will review everything about Python:
    - Unittest
    - Read/Write file
 
-You will also learn about:
+### You will also learn about:
 
     - args and kwargs
     - Serialization/Deserialization
@@ -30,7 +30,7 @@ You will also learn about:
     - How to handle named arguments in a function
 
 ## Requirements
-Python Scripts
+###### Python Scripts
 
     - Allowed editors: vi, vim, emacs
     - All your files will be interpreted/compiled on Ubuntu 14.04 LTS using python3 (version 3.4.3)
@@ -45,7 +45,7 @@ Python Scripts
     - All your functions (inside and outside a class) should be documented: python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
     - A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
 
-Python Unit Tests
+###### Python Unit Tests
 
     - Allowed editors: vi, vim, emacs
     - All your files should end with a new line
