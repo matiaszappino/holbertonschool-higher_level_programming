@@ -7,18 +7,6 @@ _By Guillaume, CTO at Holberton School_
 
 _Weight: 1_
 
-Ongoing second chance project - started 01-21-2021, must end by 01-30-2021 (in 2 days) - you're done with 60% of tasks.
-
-**Manual QA review must be done** (request it when you are done with the project)
-
-QA review fully automated.
-
-#### In a nutshell…
-
-*   **Manual QA review:** pending
-*   **Auto QA review:** 639.0/669 mandatory & 17.0/17 optional
-*   **Altogether:** waiting on some reviews
-
 Background Context
 ------------------
 
@@ -105,16 +93,7 @@ Requirements
 Tasks
 -----
 
-Done?!  
-Help
-
-×
-
-#### Students who are done with "0. If it's not tested it doesn't work"
-
 #### 0\. If it's not tested it doesn't work mandatory
-
-Score: 73.49% (Checks completed: 73.49%)
 
 All your files, classes and methods must be unit tested and be PEP 8 validated.
 
@@ -137,261 +116,7 @@ _Note that this is just an example. The number of tests you create can be differ
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `tests/`
 
-Check your code?
-
-×
-
-#### Correction of "0. If it's not tested it doesn't work"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `c6930398a53e1bcdda6efb76ccec52e2123969ce`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Check 9
-
-Check 10
-
-Check 11
-
-Check 12
-
-Check 13
-
-Check 14
-
-Check 15
-
-Check 16
-
-Check 17
-
-Check 18
-
-Check 19
-
-Check 20
-
-Check 21
-
-Check 22
-
-Check 23
-
-Check 24
-
-Check 25
-
-Check 26
-
-Check 27
-
-Check 28
-
-Check 29
-
-Check 30
-
-Check 31
-
-Check 32
-
-Check 33
-
-Check 34
-
-Check 35
-
-Check 36
-
-Check 37
-
-Check 38
-
-Check 39
-
-Check 40
-
-Check 41
-
-Check 42
-
-Check 43
-
-Check 44
-
-Check 45
-
-Check 46
-
-Check 47
-
-Check 48
-
-Check 49
-
-Check 50
-
-Check 51
-
-Check 52
-
-Check 53
-
-Check 54
-
-Check 55
-
-Check 56
-
-Check 57
-
-Check 58
-
-Check 59
-
-Check 60
-
-Check 61
-
-Check 62
-
-Check 63
-
-Check 64
-
-Check 65
-
-Check 66
-
-Check 67
-
-Check 68
-
-Check 69
-
-Check 70
-
-Check 71
-
-Check 72
-
-Check 73
-
-Check 74
-
-Check 75
-
-Check 76
-
-Check 77
-
-Check 78
-
-Check 79
-
-Check 80
-
-Check 81
-
-Check 82
-
-Check 83
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-Get a sandbox
-
-×
-
-#### Sandboxes
-
-Each sandbox will be available 8 months max
-
-**Ubuntu 14.04 - Python 3.4**
-
-  
-
-Access from anywhere
-
-Access from campus
-
-Detailed port mapping
-
-*   **HTTP:**
-    
-*   **HTTPS:**
-*   **User:**
-*   **Password:**
-*   **SSH:**
-*   **SFTP:**
-*   **SCP:**
-
-*   **HTTP:**
-    
-*   **HTTPS:**
-*   **User:**
-*   **Password:**
-*   **SSH:**
-
-**URL? Private IP? Public IP?**  
-If a **URL** is provided, you can use it from anywhere.  
-If no **URL** is provided, you must use the **private IP** when you are at school. From outside, you must use the **public IP**.  
-  
-**Ports mapping**  
-Each exposed port is mapped to another one. Example: the port SSH `22` is mapped to the port `33511`.
-
-QA Review
-
-×
-
-#### 0\. If it's not tested it doesn't work
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "1. Base class"
-
 #### 1\. Base class mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Write the first class `Base`:
 
@@ -444,70 +169,7 @@ This class will be the “base” of all other classes in this project. The goal
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/base.py, models/__init__.py`
 
-Check your code?
-
-×
-
-#### Correction of "1. Base class"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `c6930398a53e1bcdda6efb76ccec52e2123969ce`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 1\. Base class
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "2. First Rectangle"
-
 #### 2\. First Rectangle mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Write the class `Rectangle` that inherits from `Base`:
 
@@ -555,78 +217,7 @@ Because we want to protect attributes of our class. With a setter, you are able 
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/rectangle.py`
 
-Check your code?
-
-×
-
-#### Correction of "2. First Rectangle"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `c6930398a53e1bcdda6efb76ccec52e2123969ce`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Check 9
-
-Check 10
-
-Check 11
-
-Check 12
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 2\. First Rectangle
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "3. Validate attributes"
-
 #### 3\. Validate attributes mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Rectangle` by adding validation of all setter methods and instantiation (`id` excluded):
 
@@ -677,92 +268,7 @@ Update the class `Rectangle` by adding validation of all setter methods and inst
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/rectangle.py`
 
-Check your code?
-
-×
-
-#### Correction of "3. Validate attributes"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `c6930398a53e1bcdda6efb76ccec52e2123969ce`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Check 9
-
-Check 10
-
-Check 11
-
-Check 12
-
-Check 13
-
-Check 14
-
-Check 15
-
-Check 16
-
-Check 17
-
-Check 18
-
-Check 19
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 3\. Validate attributes
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "4. Area first"
-
 #### 4\. Area first mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Rectangle` by adding the public method `def area(self):` that returns the area value of the `Rectangle` instance.
 
@@ -795,70 +301,7 @@ Update the class `Rectangle` by adding the public method `def area(self):` that 
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/rectangle.py`
 
-Check your code?
-
-×
-
-#### Correction of "4. Area first"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `c6930398a53e1bcdda6efb76ccec52e2123969ce`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 4\. Area first
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "5. Display #0"
-
 #### 5\. Display #0 mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Rectangle` by adding the public method `def display(self):` that prints in stdout the `Rectangle` instance with the character `#` - you don’t need to handle `x` and `y` here.
 
@@ -896,72 +339,7 @@ Update the class `Rectangle` by adding the public method `def display(self):` th
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/rectangle.py`
 
-Check your code?
-
-×
-
-#### Correction of "5. Display #0"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `c6930398a53e1bcdda6efb76ccec52e2123969ce`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Check 9
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 5\. Display #0
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "6. \_\_str\_\_"
-
 #### 6\. \_\_str\_\_ mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Rectangle` by overriding the `__str__` method so that it returns `[Rectangle] (<id>) <x>/<y> - <width>/<height>`
 
@@ -990,70 +368,7 @@ Update the class `Rectangle` by overriding the `__str__` method so that it retur
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/rectangle.py`
 
-Check your code?
-
-×
-
-#### Correction of "6. \_\_str\_\_"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `c6930398a53e1bcdda6efb76ccec52e2123969ce`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 6\. \_\_str\_\_
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "7. Display #1"
-
 #### 7\. Display #1 mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Rectangle` by improving the public method `def display(self):` to print in stdout the `Rectangle` instance with the character `#` by taking care of `x` and `y`
 
@@ -1090,68 +405,7 @@ Update the class `Rectangle` by improving the public method `def display(self):`
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/rectangle.py`
 
-Check your code?
-
-×
-
-#### Correction of "7. Display #1"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `c6930398a53e1bcdda6efb76ccec52e2123969ce`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 7\. Display #1
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "8. Update #0"
-
 #### 8\. Update #0 mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Rectangle` by adding the public method `def update(self, *args):` that assigns an argument to each attribute:
 
@@ -1204,46 +458,7 @@ This type of argument is called a “no-keyword argument” - Argument order is 
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/rectangle.py`
 
-Check your code?
-
-×
-
-#### Correction of "8. Update #0"
-
-Start a new test
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 8\. Update #0
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "9. Update #1"
-
 #### 9\. Update #1 mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Rectangle` by updating the public method `def update(self, *args):` by changing the prototype to `update(self, *args, **kwargs)` that assigns a key/value argument to attributes:
 
@@ -1291,46 +506,7 @@ This type of argument is called a “key-worded argument”. Argument order is n
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/rectangle.py`
 
-Check your code?
-
-×
-
-#### Correction of "9. Update #1"
-
-Start a new test
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 9\. Update #1
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "10. And now, the Square!"
-
 #### 10\. And now, the Square! mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Write the class `Square` that inherits from `Rectangle`:
 
@@ -1401,46 +577,7 @@ As you know, a Square is a special Rectangle, so it makes sense this class Squar
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/square.py`
 
-Check your code?
-
-×
-
-#### Correction of "10. And now, the Square!"
-
-Start a new test
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 10\. And now, the Square!
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "11. Square size"
-
 #### 11\. Square size mandatory
-
-Score: 76.47% (Checks completed: 76.47%)
 
 Update the class `Square` by adding the public getter and setter `size`
 
@@ -1479,68 +616,7 @@ Update the class `Square` by adding the public getter and setter `size`
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/square.py`
 
-Check your code?
-
-×
-
-#### Correction of "11. Square size"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `6567d1b43fecc86f67e0b417ff6392c5cb5b07e2`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 11\. Square size
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "12. Square update"
-
 #### 12\. Square update mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Square` by adding the public method `def update(self, *args, **kwargs)` that assigns attributes:
 
@@ -1602,46 +678,7 @@ Update the class `Square` by adding the public method `def update(self, *args, *
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/square.py`
 
-Check your code?
-
-×
-
-#### Correction of "12. Square update"
-
-Start a new test
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 12\. Square update
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "13. Rectangle instance to dictionary representation"
-
 #### 13\. Rectangle instance to dictionary representation mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Rectangle` by adding the public method `def to_dictionary(self):` that returns the dictionary representation of a `Rectangle`:
 
@@ -1688,46 +725,7 @@ This dictionary must contain:
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/rectangle.py`
 
-Check your code?
-
-×
-
-#### Correction of "13. Rectangle instance to dictionary representation"
-
-Start a new test
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 13\. Rectangle instance to dictionary representation
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "14. Square instance to dictionary representation"
-
 #### 14\. Square instance to dictionary representation mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Square` by adding the public method `def to_dictionary(self):` that returns the dictionary representation of a `Square`:
 
@@ -1773,46 +771,7 @@ This dictionary must contain:
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/square.py`
 
-Check your code?
-
-×
-
-#### Correction of "14. Square instance to dictionary representation"
-
-Start a new test
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 14\. Square instance to dictionary representation
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "15. Dictionary to JSON string"
-
 #### 15\. Dictionary to JSON string mandatory
-
-Score: 87.88% (Checks completed: 87.88%)
 
 JSON is one of the standard formats for sharing data representation.
 
@@ -1852,76 +811,7 @@ Update the class `Base` by adding the static method `def to_json_string(list_dic
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/base.py`
 
-Check your code?
-
-×
-
-#### Correction of "15. Dictionary to JSON string"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `c6930398a53e1bcdda6efb76ccec52e2123969ce`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Check 9
-
-Check 10
-
-Check 11
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 15\. Dictionary to JSON string
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "16. JSON string to file"
-
 #### 16\. JSON string to file mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Base` by adding the class method `def save_to_file(cls, list_objs):` that writes the JSON string representation of `list_objs` to a file:
 
@@ -1956,80 +846,7 @@ Update the class `Base` by adding the class method `def save_to_file(cls, list_o
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/base.py`
 
-Check your code?
-
-×
-
-#### Correction of "16. JSON string to file"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `6567d1b43fecc86f67e0b417ff6392c5cb5b07e2`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Check 9
-
-Check 10
-
-Check 11
-
-Check 12
-
-Check 13
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 16\. JSON string to file
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "17. JSON string to dictionary"
-
 #### 17\. JSON string to dictionary mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Base` by adding the static method `def from_json_string(json_string):` that returns the list of the JSON string representation `json_string`:
 
@@ -2067,74 +884,7 @@ Update the class `Base` by adding the static method `def from_json_string(json_s
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/base.py`
 
-Check your code?
-
-×
-
-#### Correction of "17. JSON string to dictionary"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `6567d1b43fecc86f67e0b417ff6392c5cb5b07e2`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Check 9
-
-Check 10
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 17\. JSON string to dictionary
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "18. Dictionary to Instance"
-
 #### 18\. Dictionary to Instance mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Base` by adding the class method `def create(cls, **dictionary):` that returns an instance with all attributes already set:
 
@@ -2175,82 +925,7 @@ Update the class `Base` by adding the class method `def create(cls, **dictionary
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/base.py`
 
-Check your code?
-
-×
-
-#### Correction of "18. Dictionary to Instance"
-
-Start a new test
-
-* * *
-
-#### Result:
-
-Commit ID used: `55ed789aa4f8ecb3fd59f4dd17771d521335e1c5`
-
-Check 0
-
-Check 1
-
-Check 2
-
-Check 3
-
-Check 4
-
-Check 5
-
-Check 6
-
-Check 7
-
-Check 8
-
-Check 9
-
-Check 10
-
-Check 11
-
-Check 12
-
-Check 13
-
-Check 14
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 18\. Dictionary to Instance
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "19. File to instances"
-
 #### 19\. File to instances mandatory
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Base` by adding the class method `def load_from_file(cls):` that returns a list of instances:
 
@@ -2324,46 +999,7 @@ Update the class `Base` by adding the class method `def load_from_file(cls):` th
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/base.py`
 
-Check your code?
-
-×
-
-#### Correction of "19. File to instances"
-
-Start a new test
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 19\. File to instances
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "20. JSON ok, but CSV?"
-
 #### 20\. JSON ok, but CSV? #advanced
-
-Score: 100.00% (Checks completed: 100.00%)
 
 Update the class `Base` by adding the class methods `def save_to_file_csv(cls, list_objs):` and `def load_from_file_csv(cls):` that serializes and deserializes in CSV:
 
@@ -2438,43 +1074,6 @@ Update the class `Base` by adding the class methods `def save_to_file_csv(cls, l
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/`
 
-Check your code?
-
-×
-
-#### Correction of "20. JSON ok, but CSV?"
-
-Start a new test
-
-Requirement success
-
-Requirement fail
-
-Code success
-
-Code fail
-
-Efficiency success
-
-Efficiency fail
-
-Text answer success
-
-Text answer fail
-
-QA Review
-
-×
-
-#### 20\. JSON ok, but CSV?
-
-Done?!  
-Help
-
-×
-
-#### Students who are done with "21. Let's draw it"
-
 #### 21\. Let's draw it #advanced
 
 Update the class `Base` by adding the static method `def draw(list_rectangles, list_squares):` that opens a window and draws all the `Rectangles` and `Squares`:
@@ -2517,8 +1116,44 @@ Update the class `Base` by adding the static method `def draw(list_rectangles, l
 *   Directory: `0x0C-python-almost_a_circle`
 *   File: `models/base.py`
 
-QA Review
+#### 21\. Let's draw it #advanced
 
-×
+Update the class `Base` by adding the static method `def draw(list_rectangles, list_squares):` that opens a window and draws all the `Rectangles` and `Squares`:
 
-#### 21\. Let's draw it
+*   You must use the [Turtle graphics module](/rltoken/AuDu9jy9zmIN12YpQaHm0A "Turtle graphics module")
+*   To install it: `sudo apt-get install python3-tk`
+*   To make the GUI available outside your vagrant machine, add this line in your Vagrantfile: `config.ssh.forward_x11 = true`
+*   No constraints for color, shape etc… be creative!
+
+    guillaume@ubuntu:~/$ cat 101-main.py
+    #!/usr/bin/python3
+    """ 101-main """
+    from models.base import Base
+    from models.rectangle import Rectangle
+    from models.square import Square
+    
+    if __name__ == "__main__":
+    
+        list_rectangles = [Rectangle(100, 40), Rectangle(90, 110, 30, 10), Rectangle(20, 25, 110, 80)]
+        list_squares = [Square(35), Square(15, 70, 50), Square(80, 30, 70)]
+    
+        Base.draw(list_rectangles, list_squares)
+    
+    guillaume@ubuntu:~/$ ./101-main.py
+    ....
+    
+
+*   Uncommented line in `/etc/ssh/ssh_config` that said `# ForwardX11 no` and change `no` to `yes`.
+*   Then added line `config.ssh.forward_agent = true` to my Vagrantfile in addition to `config.ssh.forward_x11 = true`.
+*   Halted my vm with `vagrant halt` and started it back up with `vagrant up --provision` then `vagrant ssh`.
+*   If you get an error that looks like `/usr/bin/xauth: timeout in locking authority file /home/vagrant/.Xauthority`, then enter `rm .Xauthority` (you may have to `sudo`).
+*   Logout and restart the vm with `vagrant up --provision`.
+*   Test with `xeyes`. If Xquartz is installed on the Mac OS it should open in an Xquartz window.
+
+**It is your responsibility to request a review for this task from a peer before the project’s deadline. If no peers have been reviewed, you should request a review from a TA or staff member.**
+
+**Repo:**
+
+*   GitHub repository: `holbertonschool-higher_level_programming`
+*   Directory: `0x0C-python-almost_a_circle`
+*   File: `models/base.py`
