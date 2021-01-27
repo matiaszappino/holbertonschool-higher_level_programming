@@ -583,12 +583,12 @@ Update the class `Square` by adding the public getter and setter `size`
 *   The setter should assign (in this order) the `width` and the `height` - with the same value
 *   The setter should have the same value validation as the `Rectangle` for `width` and `height` - No need to change the exception error message (It should be the one from `width`)
 
-    guillaume@ubuntu:~/$ cat 10-main.py
-    #!/usr/bin/python3
-    """ 10-main """
-    from models.square import Square
+        guillaume@ubuntu:~/$ cat 10-main.py
+        #!/usr/bin/python3
+        """ 10-main """
+        from models.square import Square
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         s1 = Square(5)
         print(s1)
@@ -601,12 +601,12 @@ Update the class `Square` by adding the public getter and setter `size`
         except Exception as e:
             print("[{}] {}".format(e.__class__.__name__, e))
     
-    guillaume@ubuntu:~/$ ./10-main.py
-    [Square] (1) 0/0 - 5
-    5
-    [Square] (1) 0/0 - 10
-    [TypeError] width must be an integer
-    guillaume@ubuntu:~/$ 
+        guillaume@ubuntu:~/$ ./10-main.py
+        [Square] (1) 0/0 - 5
+        5
+        [Square] (1) 0/0 - 10
+        [TypeError] width must be an integer
+        guillaume@ubuntu:~/$ 
     
 
 **Repo:**
@@ -628,12 +628,12 @@ Update the class `Square` by adding the public method `def update(self, *args, *
 *   `**kwargs` must be skipped if \*args exists and is not empty
 *   Each key in this dictionary represents an attribute to the instance
 
-    guillaume@ubuntu:~/$ cat 11-main.py
-    #!/usr/bin/python3
-    """ 11-main """
-    from models.square import Square
+        guillaume@ubuntu:~/$ cat 11-main.py
+        #!/usr/bin/python3
+        """ 11-main """
+        from models.square import Square
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         s1 = Square(5)
         print(s1)
@@ -659,16 +659,16 @@ Update the class `Square` by adding the public method `def update(self, *args, *
         s1.update(size=7, id=89, y=1)
         print(s1)
     
-    guillaume@ubuntu:~/$ ./11-main.py
-    [Square] (1) 0/0 - 5
-    [Square] (10) 0/0 - 5
-    [Square] (1) 0/0 - 2
-    [Square] (1) 3/0 - 2
-    [Square] (1) 3/4 - 2
-    [Square] (1) 12/4 - 2
-    [Square] (1) 12/1 - 7
-    [Square] (89) 12/1 - 7
-    guillaume@ubuntu:~/$ 
+        guillaume@ubuntu:~/$ ./11-main.py
+        [Square] (1) 0/0 - 5
+        [Square] (10) 0/0 - 5
+        [Square] (1) 0/0 - 2
+        [Square] (1) 3/0 - 2
+        [Square] (1) 3/4 - 2
+        [Square] (1) 12/4 - 2
+        [Square] (1) 12/1 - 7
+        [Square] (89) 12/1 - 7
+        guillaume@ubuntu:~/$ 
     
 
 **Repo:**
@@ -689,12 +689,12 @@ This dictionary must contain:
 *   `x`
 *   `y`
 
-    guillaume@ubuntu:~/$ cat 12-main.py
-    #!/usr/bin/python3
-    """ 12-main """
-    from models.rectangle import Rectangle
+        guillaume@ubuntu:~/$ cat 12-main.py
+        #!/usr/bin/python3
+        """ 12-main """
+        from models.rectangle import Rectangle
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         r1 = Rectangle(10, 2, 1, 9)
         print(r1)
@@ -708,14 +708,14 @@ This dictionary must contain:
         print(r2)
         print(r1 == r2)
     
-    guillaume@ubuntu:~/$ ./12-main.py
-    [Rectangle] (1) 1/9 - 10/2
-    {'x': 1, 'y': 9, 'id': 1, 'height': 2, 'width': 10}
-    <class 'dict'>
-    [Rectangle] (2) 0/0 - 1/1
-    [Rectangle] (1) 1/9 - 10/2
-    False
-    guillaume@ubuntu:~/$ 
+        guillaume@ubuntu:~/$ ./12-main.py
+        [Rectangle] (1) 1/9 - 10/2
+        {'x': 1, 'y': 9, 'id': 1, 'height': 2, 'width': 10}
+        <class 'dict'>
+        [Rectangle] (2) 0/0 - 1/1
+        [Rectangle] (1) 1/9 - 10/2
+        False
+        guillaume@ubuntu:~/$ 
     
 
 **Repo:**
@@ -735,12 +735,12 @@ This dictionary must contain:
 *   `x`
 *   `y`
 
-    guillaume@ubuntu:~/$ cat 13-main.py
-    #!/usr/bin/python3
-    """ 13-main """
-    from models.square import Square
+        guillaume@ubuntu:~/$ cat 13-main.py
+        #!/usr/bin/python3
+        """ 13-main """
+        from models.square import Square
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         s1 = Square(10, 2, 1)
         print(s1)
@@ -754,14 +754,14 @@ This dictionary must contain:
         print(s2)
         print(s1 == s2)
     
-    guillaume@ubuntu:~/$ ./13-main.py
-    [Square] (1) 2/1 - 10
-    {'id': 1, 'x': 2, 'size': 10, 'y': 1}
-    <class 'dict'>
-    [Square] (2) 1/0 - 1
-    [Square] (1) 2/1 - 10
-    False
-    guillaume@ubuntu:~/$ 
+        guillaume@ubuntu:~/$ ./13-main.py
+        [Square] (1) 2/1 - 10
+        {'id': 1, 'x': 2, 'size': 10, 'y': 1}
+        <class 'dict'>
+        [Square] (2) 1/0 - 1
+        [Square] (1) 2/1 - 10
+        False
+        guillaume@ubuntu:~/$ 
     
 
 **Repo:**
@@ -780,13 +780,13 @@ Update the class `Base` by adding the static method `def to_json_string(list_dic
 *   If `list_dictionaries` is `None` or empty, return the string: `"[]"`
 *   Otherwise, return the JSON string representation of `list_dictionaries`
 
-    guillaume@ubuntu:~/$ cat 14-main.py
-    #!/usr/bin/python3
-    """ 14-main """
-    from models.base import Base
-    from models.rectangle import Rectangle
+        guillaume@ubuntu:~/$ cat 14-main.py
+        #!/usr/bin/python3
+        """ 14-main """
+        from models.base import Base
+        from models.rectangle import Rectangle
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         r1 = Rectangle(10, 7, 2, 8)
         dictionary = r1.to_dictionary()
@@ -796,12 +796,12 @@ Update the class `Base` by adding the static method `def to_json_string(list_dic
         print(json_dictionary)
         print(type(json_dictionary))
     
-    guillaume@ubuntu:~/$ ./14-main.py
-    {'x': 2, 'width': 10, 'id': 1, 'height': 7, 'y': 8}
-    <class 'dict'>
-    [{"x": 2, "width": 10, "id": 1, "height": 7, "y": 8}]
-    <class 'str'>
-    guillaume@ubuntu:~/$ 
+        guillaume@ubuntu:~/$ ./14-main.py
+        {'x': 2, 'width': 10, 'id': 1, 'height': 7, 'y': 8}
+        <class 'dict'>
+        [{"x": 2, "width": 10, "id": 1, "height": 7, "y": 8}]
+        <class 'str'>
+        guillaume@ubuntu:~/$ 
     
 
 **Repo:**
@@ -820,12 +820,12 @@ Update the class `Base` by adding the class method `def save_to_file(cls, list_o
 *   You must use the static method `to_json_string` (created before)
 *   You must overwrite the file if it already exists
 
-    guillaume@ubuntu:~/$ cat 15-main.py
-    #!/usr/bin/python3
-    """ 15-main """
-    from models.rectangle import Rectangle
+        guillaume@ubuntu:~/$ cat 15-main.py
+        #!/usr/bin/python3
+        """ 15-main """
+        from models.rectangle import Rectangle
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         r1 = Rectangle(10, 7, 2, 8)
         r2 = Rectangle(2, 4)
@@ -834,9 +834,9 @@ Update the class `Base` by adding the class method `def save_to_file(cls, list_o
         with open("Rectangle.json", "r") as file:
             print(file.read())
     
-    guillaume@ubuntu:~/$ ./15-main.py
-    [{"y": 8, "x": 2, "id": 1, "width": 10, "height": 7}, {"y": 0, "x": 0, "id": 2, "width": 2, "height": 4}]
-    guillaume@ubuntu:~/$ 
+        guillaume@ubuntu:~/$ ./15-main.py
+        [{"y": 8, "x": 2, "id": 1, "width": 10, "height": 7}, {"y": 0, "x": 0, "id": 2, "width": 2, "height": 4}]
+        guillaume@ubuntu:~/$ 
     
 
 **Repo:**
@@ -853,12 +853,12 @@ Update the class `Base` by adding the static method `def from_json_string(json_s
 *   If `json_string` is `None` or empty, return an empty list
 *   Otherwise, return the list represented by `json_string`
 
-    guillaume@ubuntu:~/$ cat 16-main.py
-    #!/usr/bin/python3
-    """ 16-main """
-    from models.rectangle import Rectangle
+        guillaume@ubuntu:~/$ cat 16-main.py
+        #!/usr/bin/python3
+        """ 16-main """
+        from models.rectangle import Rectangle
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         list_input = [
             {'id': 89, 'width': 10, 'height': 4}, 
@@ -870,11 +870,11 @@ Update the class `Base` by adding the static method `def from_json_string(json_s
         print("[{}] {}".format(type(json_list_input), json_list_input))
         print("[{}] {}".format(type(list_output), list_output))
     
-    guillaume@ubuntu:~/$ ./16-main.py
-    [<class 'list'>] [{'height': 4, 'width': 10, 'id': 89}, {'height': 7, 'width': 1, 'id': 7}]
-    [<class 'str'>] [{"height": 4, "width": 10, "id": 89}, {"height": 7, "width": 1, "id": 7}]
-    [<class 'list'>] [{'height': 4, 'width': 10, 'id': 89}, {'height': 7, 'width': 1, 'id': 7}]
-    guillaume@ubuntu:~/$ 
+        guillaume@ubuntu:~/$ ./16-main.py
+        [<class 'list'>] [{'height': 4, 'width': 10, 'id': 89}, {'height': 7, 'width': 1, 'id': 7}]
+        [<class 'str'>] [{"height": 4, "width": 10, "id": 89}, {"height": 7, "width": 1, "id": 7}]
+        [<class 'list'>] [{'height': 4, 'width': 10, 'id': 89}, {'height': 7, 'width': 1, 'id': 7}]
+        guillaume@ubuntu:~/$ 
     
 
 **Repo:**
@@ -895,12 +895,12 @@ Update the class `Base` by adding the class method `def create(cls, **dictionary
 *   `**dictionary` must be used as `**kwargs` of the method `update`
 *   You are not allowed to use `eval`
 
-    guillaume@ubuntu:~/$ cat 17-main.py
-    #!/usr/bin/python3
-    """ 17-main """
-    from models.rectangle import Rectangle
+        guillaume@ubuntu:~/$ cat 17-main.py
+        #!/usr/bin/python3
+        """ 17-main """
+        from models.rectangle import Rectangle
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         r1 = Rectangle(3, 5, 1)
         r1_dictionary = r1.to_dictionary()
@@ -910,12 +910,12 @@ Update the class `Base` by adding the class method `def create(cls, **dictionary
         print(r1 is r2)
         print(r1 == r2)
     
-    guillaume@ubuntu:~/$ ./17-main.py
-    [Rectangle] (1) 1/0 - 3/5
-    [Rectangle] (1) 1/0 - 3/5
-    False
-    False
-    guillaume@ubuntu:~/$ 
+        guillaume@ubuntu:~/$ ./17-main.py
+        [Rectangle] (1) 1/0 - 3/5
+        [Rectangle] (1) 1/0 - 3/5
+        False
+        False
+        guillaume@ubuntu:~/$ 
     
 
 **Repo:**
@@ -933,13 +933,13 @@ Update the class `Base` by adding the class method `def load_from_file(cls):` th
 *   Otherwise, return a list of instances - the type of these instances depends on `cls` (current class using this method)
 *   You must use the `from_json_string` and `create` methods (implemented previously)
 
-    guillaume@ubuntu:~/$ cat 18-main.py
-    #!/usr/bin/python3
-    """ 18-main """
-    from models.rectangle import Rectangle
-    from models.square import Square
+        guillaume@ubuntu:~/$ cat 18-main.py
+        #!/usr/bin/python3
+        """ 18-main """
+        from models.rectangle import Rectangle
+        from models.square import Square
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         r1 = Rectangle(10, 7, 2, 8)
         r2 = Rectangle(2, 4)
@@ -976,20 +976,20 @@ Update the class `Base` by adding the class method `def load_from_file(cls):` th
         for square in list_squares_output:
             print("[{}] {}".format(id(square), square))
     
-    guillaume@ubuntu:~/$ ./18-main.py
-    [139785912033120] [Rectangle] (1) 2/8 - 10/7
-    [139785912033176] [Rectangle] (2) 0/0 - 2/4
-    ---
-    [139785911764752] [Rectangle] (1) 2/8 - 10/7
-    [139785911764808] [Rectangle] (2) 0/0 - 2/4
-    ---
-    ---
-    [139785912058040] [Square] (5) 0/0 - 5
-    [139785912061848] [Square] (6) 9/1 - 7
-    ---
-    [139785911764976] [Square] (5) 0/0 - 5
-    [139785911765032] [Square] (6) 9/1 - 7
-    guillaume@ubuntu:~/$ 
+        guillaume@ubuntu:~/$ ./18-main.py
+        [139785912033120] [Rectangle] (1) 2/8 - 10/7
+        [139785912033176] [Rectangle] (2) 0/0 - 2/4
+        ---
+        [139785911764752] [Rectangle] (1) 2/8 - 10/7
+        [139785911764808] [Rectangle] (2) 0/0 - 2/4
+        ---
+        ---
+        [139785912058040] [Square] (5) 0/0 - 5
+        [139785912061848] [Square] (6) 9/1 - 7
+        ---
+        [139785911764976] [Square] (5) 0/0 - 5
+        [139785911765032] [Square] (6) 9/1 - 7
+        guillaume@ubuntu:~/$ 
     
 
 **Repo:**
@@ -1008,63 +1008,62 @@ Update the class `Base` by adding the class methods `def save_to_file_csv(cls, l
     *   Rectangle: `<id>,<width>,<height>,<x>,<y>`
     *   Square: `<id>,<size>,<x>,<y>`
 
-    guillaume@ubuntu:~/$ cat 100-main.py
-    #!/usr/bin/python3
-    """ 100-main """
-    from models.rectangle import Rectangle
-    from models.square import Square
+            guillaume@ubuntu:~/$ cat 100-main.py
+            #!/usr/bin/python3
+            """ 100-main """
+            from models.rectangle import Rectangle
+            from models.square import Square
     
-    if __name__ == "__main__":
+            if __name__ == "__main__":
     
-        r1 = Rectangle(10, 7, 2, 8)
-        r2 = Rectangle(2, 4)
-        list_rectangles_input = [r1, r2]
+            r1 = Rectangle(10, 7, 2, 8)
+            r2 = Rectangle(2, 4)
+            list_rectangles_input = [r1, r2]
     
-        Rectangle.save_to_file_csv(list_rectangles_input)
+            Rectangle.save_to_file_csv(list_rectangles_input)
     
-        list_rectangles_output = Rectangle.load_from_file_csv()
+            list_rectangles_output = Rectangle.load_from_file_csv()
     
-        for rect in list_rectangles_input:
-            print("[{}] {}".format(id(rect), rect))
+            for rect in list_rectangles_input:
+                print("[{}] {}".format(id(rect), rect))
     
-        print("---")
+            print("---")
     
-        for rect in list_rectangles_output:
-            print("[{}] {}".format(id(rect), rect))
+            for rect in list_rectangles_output:
+                print("[{}] {}".format(id(rect), rect))
     
-        print("---")
-        print("---")
+            print("---")
+            print("---")
     
-        s1 = Square(5)
-        s2 = Square(7, 9, 1)
-        list_squares_input = [s1, s2]
+            s1 = Square(5)
+            s2 = Square(7, 9, 1)
+            list_squares_input = [s1, s2]
     
-        Square.save_to_file_csv(list_squares_input)
+            Square.save_to_file_csv(list_squares_input)
     
-        list_squares_output = Square.load_from_file_csv()
+            list_squares_output = Square.load_from_file_csv()
     
-        for square in list_squares_input:
-            print("[{}] {}".format(id(square), square))
+            for square in list_squares_input:
+                print("[{}] {}".format(id(square), square))
     
-        print("---")
+            print("---")
     
-        for square in list_squares_output:
-            print("[{}] {}".format(id(square), square))
-    
-    guillaume@ubuntu:~/$ ./100-main.py
-    [140268695797600] [Rectangle] (1) 2/8 - 10/7
-    [140268695797656] [Rectangle] (2) 0/0 - 2/4
-    ---
-    [140268695529008] [Rectangle] (1) 2/8 - 10/7
-    [140268695528952] [Rectangle] (2) 0/0 - 2/4
-    ---
-    ---
-    [140268695822520] [Square] (5) 0/0 - 5
-    [140268695826328] [Square] (6) 9/1 - 7
-    ---
-    [140268695529232] [Square] (5) 0/0 - 5
-    [140268695529176] [Square] (6) 9/1 - 7
-    guillaume@ubuntu:~/$ 
+            for square in list_squares_output:
+                print("[{}] {}".format(id(square), square))
+            guillaume@ubuntu:~/$ ./100-main.py
+            [140268695797600] [Rectangle] (1) 2/8 - 10/7
+            [140268695797656] [Rectangle] (2) 0/0 - 2/4
+            ---
+            [140268695529008] [Rectangle] (1) 2/8 - 10/7
+            [140268695528952] [Rectangle] (2) 0/0 - 2/4
+            ---
+            ---
+            [140268695822520] [Square] (5) 0/0 - 5
+            [140268695826328] [Square] (6) 9/1 - 7
+            ---
+            [140268695529232] [Square] (5) 0/0 - 5
+            [140268695529176] [Square] (6) 9/1 - 7
+            guillaume@ubuntu:~/$ 
     
 
 **Repo:**
@@ -1082,22 +1081,21 @@ Update the class `Base` by adding the static method `def draw(list_rectangles, l
 *   To make the GUI available outside your vagrant machine, add this line in your Vagrantfile: `config.ssh.forward_x11 = true`
 *   No constraints for color, shape etc… be creative!
 
-    guillaume@ubuntu:~/$ cat 101-main.py
-    #!/usr/bin/python3
-    """ 101-main """
-    from models.base import Base
-    from models.rectangle import Rectangle
-    from models.square import Square
+        guillaume@ubuntu:~/$ cat 101-main.py
+        #!/usr/bin/python3
+        """ 101-main """
+        from models.base import Base
+        from models.rectangle import Rectangle
+        from models.square import Square
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         list_rectangles = [Rectangle(100, 40), Rectangle(90, 110, 30, 10), Rectangle(20, 25, 110, 80)]
         list_squares = [Square(35), Square(15, 70, 50), Square(80, 30, 70)]
     
         Base.draw(list_rectangles, list_squares)
-    
-    guillaume@ubuntu:~/$ ./101-main.py
-    ....
+        guillaume@ubuntu:~/$ ./101-main.py
+        ....
     
 
 *   Uncommented line in `/etc/ssh/ssh_config` that said `# ForwardX11 no` and change `no` to `yes`.
@@ -1124,22 +1122,21 @@ Update the class `Base` by adding the static method `def draw(list_rectangles, l
 *   To make the GUI available outside your vagrant machine, add this line in your Vagrantfile: `config.ssh.forward_x11 = true`
 *   No constraints for color, shape etc… be creative!
 
-    guillaume@ubuntu:~/$ cat 101-main.py
-    #!/usr/bin/python3
-    """ 101-main """
-    from models.base import Base
-    from models.rectangle import Rectangle
-    from models.square import Square
+        guillaume@ubuntu:~/$ cat 101-main.py
+        #!/usr/bin/python3
+        """ 101-main """
+        from models.base import Base
+        from models.rectangle import Rectangle
+        from models.square import Square
     
-    if __name__ == "__main__":
+        if __name__ == "__main__":
     
         list_rectangles = [Rectangle(100, 40), Rectangle(90, 110, 30, 10), Rectangle(20, 25, 110, 80)]
         list_squares = [Square(35), Square(15, 70, 50), Square(80, 30, 70)]
     
         Base.draw(list_rectangles, list_squares)
-    
-    guillaume@ubuntu:~/$ ./101-main.py
-    ....
+        guillaume@ubuntu:~/$ ./101-main.py
+        ....
     
 
 *   Uncommented line in `/etc/ssh/ssh_config` that said `# ForwardX11 no` and change `no` to `yes`.
