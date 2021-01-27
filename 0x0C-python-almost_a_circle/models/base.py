@@ -19,10 +19,9 @@ class Base:
     @staticmethod
     def to_json_string(list_dictionaries):
         '''json dumps'''
-        if list_dictionaries is None or len(list_dictionaries) == 0:
+        if list_dictionaries is None or list_dictionaries) == []:
             return "[]"
-        else:
-            return json.dumps(list_dictionaries)
+        return json.dumps(list_dictionaries)
 
     '''@classmethod
     def save_to_file(cls, list_objs):
@@ -54,9 +53,10 @@ class Base:
     @staticmethod
     def from_json_string(json_string):
         '''json loads'''
-        if json_string is None or json_string == []:
+        if json_string is None or len(json_string) == 0:
             return []
-        return json.loads(json_string)
+        else:
+            return json.loads(json_string)
 
     '''@classmethod
     def create(cls, **dictionary):
