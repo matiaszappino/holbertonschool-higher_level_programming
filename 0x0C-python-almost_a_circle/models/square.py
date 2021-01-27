@@ -20,8 +20,8 @@ class Square(Rectangle):
     def size(self, value):
         """Width Setter
         """
-        self.int_validator("width", value)
         self.width = value
+        self.height = value
 
     def __str__(self):
         '''Str method'''
