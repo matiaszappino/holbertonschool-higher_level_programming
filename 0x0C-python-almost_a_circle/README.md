@@ -3,8 +3,6 @@
 
 Foundations - Higher-level programming ― Python
 
-_By Guillaume, CTO at Holberton School_
-
 _Weight: 1_
 
 Background Context
