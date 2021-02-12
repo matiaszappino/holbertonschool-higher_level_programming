@@ -18,9 +18,10 @@ This repository includes programs specifically written at Holberton School for t
 * [0x0B. Python - Input/Output](./0x0B-python-input_output)
 * [0x0C. Python - Almost a circle](./0x0C-python-almost_a_circle)
 
-#### Made by Matias Zappino at Holberton School
+
 
 <p align="center">
+    #### Made by Matias Zappino at Holberton School
   <img src="http://www.holbertonschool.com/holberton-logo.png"
        alt="Holberton School logo"
   >
